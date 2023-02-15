@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Etnodim - магазин дизайнерських вишиванок ручної роботи та етнічного одягу">
+    <title>Etnodim</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__navigation">
+            <div class="header_nav_catalogue">
+                <a class="nav_item_link item_catalogue" href="#">Каталог</a>
+                <div class="catalogue__dropdown">
+                    <div class="catalogue__navigation">
+                        <ul class="catalogue_nav">
+                            <li class="catalogue_item item_shown">жінкам</li>
+                            <li class="catalogue_item item_hidden">чоловікам</li>
+                            <li class="catalogue_item item_hidden">дітям</li>
+                            <li class="catalogue_item item_hidden">аксесуари</li>
+                            <li class="catalogue_item item_hidden">дім</li>
+                        </ul>
+                    </div>
+                    <div class="catalogue_woman">
+                        <ul class="woman_list">
+                            <li class="woman_item">Вишиті сукні</li>
+                            <li class="woman_item">Жіночі вишиванки</li>
+                            <li class="woman_item">Конструктор вишиванки</li>
+                        </ul>
+                    </div>
+                    <div class="catalogue_woman">
+                        <ul class="woman_list">
+                            <li class="woman_item">Світшоти та светри</li>
+                            <li class="woman_item">Футболки</li>
+                            <li class="woman_item">Брюки та комбінезони</li>
+                          </ul>
+                    </div>
+                    <div class="catalogue_woman">
+                        <ul class="woman_list">
+                            <li class="woman_item">Пальта та куртки</li>
+                            <li class="woman_item">Спідниці</li>
+                        </ul>
+                    </div>
+                    <div class="catalogue_image">
+                        <img src="images/image_header.jpg" alt="Photo">
+                    </div>
+                </div>
+            </div>
+            <a class="nav_item_link" href="#">Знижки</a>
+            <a class="nav_item_link" href="#">Блог</a>
+            <a class="nav_item_link" href="#">Про нас</a>
+            <div class="header_button">
+                <a class="button_mobile" href="menu_mobile.html"><img src="images/button_mobile.png" alt="button"></a>
+            </div>
+        </div>
+        <div class="header__logo">
+            <img class="logo_img" src="images/logo.png" alt="Logo">
+        </div>
+        <div class="header__menu">
+            <ul class="menu_list">
+                <li class="menu_item item_language icon_arrow">UA</li>
+                <li class="menu_item item_currency icon_arrow">&#8372;</li>
+                <li class="menu_item">
+                  <a href="tel:+38 097 888 92 92" class="item_number"
+                    >+38 097 888 92 92</a
+                  >
+                </li>
+                <li class="menu_item item_search">
+                  <img src="images/sign_search.png" alt="Search icon" />
+                </li>
+                <li class="menu_item item_cart">
+                  <img src="images/cart.png" alt="Cart icon" />
+                </li>
+              </ul>
+        </div>     
+    </header>
+    <section class="cart">
+        <div class="cart-menu">
+            <span> Головна </span><img src="images/Rectangle 164.png" alt="">
+            <span> Жінкам </span><img src="images/Rectangle 164.png" alt="">
+            <span> Жіночі вишиванки </span><img src="images/Rectangle 164.png" alt="">
+            <span> Вишиванка з рослинним орнаментом Lito </span><img src="images/Rectangle 164.png" alt="">
+            <span> Кошик </span>
+        </div>
+        <div class="cart-menu__mini">
+            <span><img src="images/Vector 18.png" alt="arrow"></span>
+            <span>Вишиванка з рослинним орнаментом Lito </span>
+        </div>
+        <div class="cart-product">
+            <div class="cart-grid">
+                <div class="cart-grid1">
+                    <div class="cart-product__photo"><img src="images/image 2.png" alt="produkt photo"></div>
+                </div>
+                <div class="cart-grid2">
+                    <div class="cart-product__name">Вишиванка з рослинним орнаментом Lito</div>
+                </div>
+                <div class="cart-grid3">
+                    <div class="cart-product__title color">Колір:</div>
+                </div>
+                <div class="cart-grid4">
+                    <div class="cart-product__color">бежевий</div>
+                </div>
+                <div class="cart-grid5">
+                    <div class="cart-product__title size">Розмір:</div>
+                </div>
+                <div class="cart-grid6">
+                    <div class="cart-product__size">
+                        <form action="">
+                            <label for=""></label>
+                            <select name="size" id="size">
+                                <option value="32">32 | XXS</option>
+                                <option value="34">34 | XS</option>
+                                <option value="36">36 | S</option>
+                                <option value="38">38 | M</option>
+                                <option value="40">40 | L</option>
+                                <option value="42">42 | XL</option>
+                                <option value="44">44 | XXL</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="cart-grid7"></div>
+                <div class="cart-grid8">
+                    <div class="cart-product__title price">Ціна</div>
+                </div>
+                <div class="cart-grid9">
+                    <div class="cart-product__price">2 800 грн.</div>
+                </div>
+                <div class="cart-grid10">
+                    <div class="cart-product__title quantity">Кількість</div>
+                </div>
+                <div class="cart-grid11">
+                    <div class="cart-product__quantity">
+                        <div class="number">
+                            <span class="plus">-</span>
+                            <input type="text" value="1" />
+                            <span class="plus"> +</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-grid12">
+                    <div class="cart-product__title amount">Сума</div>
+                </div>
+                <div class="cart-grid13">
+                    <div class="cart-product__amount">2 800 грн.</div>
+                </div>
+                <div class="cart-product__exit"><img src="images/Vector 16.png" alt="exit"></div>
+            </div>
+        </div>
+    
+        <div class="cart-total">
+            <hr>
+            <div class="cart-total__title total">До сплати</div>
+            <div class="cart-total__total">2 800 грн.</div>
+            
+            <div class="cart-total__btns">
+                <button>оформити замовлення</button>
+                <a class="cart-total__a" href="">продовжити покупки</a>
+            </div>
+        </div>
+        <div class="cart-text">
+            <p class="cart-text__1">Не турбуйтесь якщо вам не підійде розмір, всі моделі мають різний крій: одні маломірні,
+                інші повнорозмірні. <br>
+                На кожен наш товар розповсюджується гарантія, яка дозволяє обміняти або повернути річ протягом 31го дня <br>
+                після дати покупки. <br> <br>
+            </p>
+            <p class="cart-text__2">
+                Таке повернення можливе за умови, якщо товар не був у використанні. Зверніться до менеджера магазину, він
+                надасть вам
+                більш детальну інформацію :)</p>
+        </div>
+    </section>
+<footer class="footer">
+    <div class="footer__logo">
+        <img src="images/etnodim-logo-main-removebg-preview 2.png" alt="logo" />
+    </div>
+    <div class="footer-container">
+        <nav class="footer-container__nav">
+            <ul class="footer-container__list">
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Про нас</a>
+                </li>
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Команда</a>
+                </li>
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Блог</a>
+                </li>
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Drabyna</a>
+                </li>
+            </ul>
+            <ul class="footer-container__list">
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Цікава інформація</a>
+                </li>
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Вакансії</a>
+                </li>
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Доставка та оплата</a>
+                </li>
+                <li class="footer-container__item">
+                    <a class="footer__link" href="#">Етнодім Маніфест</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer-contacts">
+            <div class="footer-contacts__text">Контакти</div>
+            <div class="footer-contacts__tel">
+                <a class="footer__link" href="tel:+380978889292">+38 097 888 92 92</a>
+            </div>
+            <address class="footer-contacts__address">
+                Україна, м. Київ, вул. Верхній Вал 58/28
+            </address>
+            <div class="footer-contacts__time">
+                <span>пн-пт 10:00-20:00 </span><span>сб-нд 11:00-19:00</span>
+            </div>
+        </div>
+        <div class="footer-social">
+            <div class="footer-social__text">Соціальні мережі</div>
+            <div class="footer-social__images">
+                <a class="footer__link" href="#"><img class="footer__image" src="images/bx_bxl-facebook-square.png"
+                        alt="facebook" /></a>
+                <a class="footer__link" href="#"><img class="footer__image" src="images/cib_youtube.png"
+                        alt="youtube" /></a>
+                <a href="#"><img class="footer__image" src="images/fluent_mail-28-filled.png" alt="email" /></a>
+                <a class="footer__link" href="#"><img class="footer__image"
+                        src="images/entypo-social_pinterest-with-circle.png" alt="pinterest" /></a>
+                <a class="footer__link" href="#"><img class="footer__image" src="images/bx_bxl-instagram-alt.png"
+                        alt="instagram" /></a>
+            </div>
+            <div class="footer__copyright">© «Етнодім» 2009-2021</div>
+        </div>
+    </div>
+    <div class="footer-contacts-mobile">
+        <div class="footer-contacts__text">Контакти</div>
+        <div class="footer-contacts__tel">
+            <a class="footer__link" href="tel:+380978889292">+38 097 888 92 92</a>
+        </div>
+        <address class="footer-contacts__address">
+            Україна, м. Київ, вул. Верхній Вал 58/28
+        </address>
+        <div class="footer-contacts__time">
+            <span class="footer__data">пн-пт 10:00-20:00 </span><span class="footer__data">сб-нд 11:00-19:00</span>
+        </div>
+    </div>
+    <div class="footer__copyright-mobile">© «Етнодім» 2009-2021</div>
+</footer>
+
+</body>
+</html>
